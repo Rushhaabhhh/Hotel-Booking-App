@@ -1,0 +1,60 @@
+/* LoginPage.css */
+.login-page {
+    margin-top: 16px; /* mt-4 */
+    flex-grow: 1; /* grow */
+    display: flex;
+    align-items: center; /* items-center */
+    justify-content: space-around; /* justify-around */
+  }
+  
+  .login-container {
+    margin-bottom: 256px; /* mb-64 */
+  }
+  
+  .login-title {
+    font-size: 2.25rem; /* text-4xl */
+    text-align: center; /* text-center */
+    margin-bottom: 16px; /* mb-4 */
+  }
+  
+  .login-form {
+    max-width: 28rem; /* max-w-md */
+    margin: 0 auto; /* mx-auto */
+  }
+  
+  .login-form input[type="email"],
+  .login-form input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 8px; /* adjust as needed */
+    margin-bottom: 16px; /* adjust as needed */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-form button.primary {
+    display: block;
+    width: 100%;
+    padding: 12px; /* adjust as needed */
+    background-color: #007bff; /* adjust as needed */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-form button.primary:hover {
+    background-color: #0056b3; /* adjust as needed */
+  }
+  
+  .login-form .text-center {
+    text-align: center; /* text-center */
+    padding: 8px 0; /* py-2 */
+    color: #6b7280; /* text-gray-500 */
+  }
+  
+  .login-form .register-link {
+    text-decoration: underline; /* underline */
+    color: black; /* text-black */
+  }
+  
